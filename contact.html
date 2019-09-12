@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
-    <title>Anton's Website Home</title>
+    <title>Anton's Website Contact</title>
   </head>
   <body>
     <header>
@@ -14,7 +14,7 @@
       </div>
       <div class="allButtons">
         <div class="knapp1">
-          <button type="button" class="button1 active">Home</button>
+          <a href="index.html"><button type="button" class="button1">Home</button></a>
         </div>
         <div class="knapp2">
           <a href="about.html"><button type="button" class="button1">About</button></a>
@@ -26,21 +26,23 @@
           <a href="links.html"><button type="button" class="button1">Links</button></a>
         </div>
         <div class="knapp5">
-          <a href="contact.html"><button type="button" class="button1">Contact</button></a>
+          <button type="button" class="button1 active">Contact</button>
         </div>
       </div>
     </header>
     <div class="matBox">
-      <div class="siteMat welcomeBox">
-        <h3>Welcome!</h3>
-        <p>Hey, welcome to Anton's website! This website is
-          made for a school project, so this chunk of text is
-          just there to have something to display on my Homepage,
-          so don't get stuck here for to long, there is nothing
-          interesting to find on this part of the website, so you
-          should carry on to the other pages!<br><br>
-          Kind Regards, Anton.
-        </p>
+      <div class="siteMat contactBox">
+        <h3>Contact Form</h3>
+        <form class="nameForm">
+          <label>Firstname:</label>
+          <input type="name" name="firstname">
+          <label>Lastname:</label>
+          <input type="name" name="lastname">
+        </form>
+        <form class="emailForm">
+          <label>Email:</label>
+          <input type="email" name="email">
+        </form>
       </div>
     </div>
     <footer>

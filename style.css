@@ -214,3 +214,45 @@ li > a:hover{
   color: #003B46;
   font-style: italic;
 }
+
+div.contactBox{
+  position: relative;
+  width: 370px;
+  top: 200px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+div.contactBox > .nameForm{
+  position: relative;
+  top: 0px;
+}
+
+label{
+  margin: none;
+}
+
+form.nameForm > input{
+  width: 80px;
+  margin: 2px;
+  outline: none;
+}
+
+.contactBox > h3{
+  top: -4px;
+}
+
+form.emailForm > input{
+
+  width: 264px;
+  margin: 2px;
+  position: relative;
+  left: 36px;
+  outline: none;
+}
+
+form.emailForm{
+  position: relative;
+  top:4px;
+}
