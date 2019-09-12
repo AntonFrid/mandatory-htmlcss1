@@ -154,3 +154,34 @@ div.siteFoot{
   margin-bottom: 8px;
   margin-top: 5px;
 }
+
+div.movieBox{
+position: relative;
+top: 200px;
+background-color: rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+padding: 4px;
+}
+
+table{
+  position:relative;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+thead{
+  background-color: #66A5AD;
+  border-radius: 10px;
+
+
+}
+th, td{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 150px;
+  border: 1px solid black;
+}
+
+tr:nth-child(even){
+  background-color: rgba(0, 0, 0, 0.2);
+}
