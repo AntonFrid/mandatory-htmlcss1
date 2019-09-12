@@ -185,3 +185,32 @@ th, td{
 tr:nth-child(even){
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+div.linkBox{
+  position: relative;
+  width: 280px;
+  top: 200px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+div.linkBox > h3{
+  top: 0px;
+
+}
+
+div.linkBox > ul{
+  position: relative;
+  top: -5px;
+}
+li > a{
+  text-decoration: none;
+  color: #003B46;
+  font-style: italic;
+}
+li > a:hover{
+  text-decoration: underline;
+  color: #003B46;
+  font-style: italic;
+}
