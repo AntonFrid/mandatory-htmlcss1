@@ -33,15 +33,34 @@
     <div class="matBox">
       <div class="siteMat contactBox">
         <h3>Contact Form</h3>
-        <form class="nameForm">
-          <label>Firstname:</label>
-          <input type="name" name="firstname">
-          <label>Lastname:</label>
-          <input type="name" name="lastname">
-        </form>
-        <form class="emailForm">
-          <label>Email:</label>
-          <input type="email" name="email">
+        <form class=theForm>
+          <div class="nameForm">
+            <label>First name:</label>
+            <input type="name" name="firstname" required placeholder="First name" title="First name">
+            <label>Last name:</label>
+            <input type="name" name="lastname" required placeholder="Last name" title="Last name">
+          </div>
+          <div class="emailForm">
+            <label>Email:</label>
+            <input type="email" name="email" required placeholder="example@hotmail.com" title="Email">
+          </div>
+          <div class="selectFrom">
+            <label>Subject: </label>
+            <select class="subject" name="subject" required>
+              <option value="booking">Booking</option>
+              <option value="complaint">Complaint</option>
+              <option value="collab">Collaboration</option>
+              <option value="refund">Refund</option>
+              <option value="other">--Other--</option>
+            </select>
+          </div>
+          <div class="messageForm">
+            <label>Message:</label>
+            <textarea class="messageBox" rows="10" cols="44" required title="Message"></textarea>
+          </div>
+          <div class="sumbitForm">
+            <input type="submit" class="submitButton" value="Submit">
+          </div>
         </form>
       </div>
     </div>
